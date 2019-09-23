@@ -66,7 +66,7 @@ class ViewController: UIViewController {
 
     
     
-    @IBAction func editBarButtonPressed(_ sender: Any) {
+    @IBAction func editBarButtonPressed(_ sender: UIBarButtonItem) {
         if tableView.isEditing {
             tableView.setEditing(false, animated: true)
             addBarButton.isEnabled = true
